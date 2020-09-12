@@ -1,0 +1,83 @@
+ body {
+  background-image: url(img/sam.jpg) ;
+  background-size: 100ch;
+  background-position: inherit;
+  image-orientation: from-image;
+  color: #686f69;
+  width: 100%;
+  font-size: 16px;
+}
+table,td,th {
+  border: 1px solid red;
+  text-align: center;
+  
+
+}
+table{
+  margin: 20px auto 20px auto;
+  background: rgb(248, 243, 242);
+  width: 80%;
+  opacity: 0.8;
+  border-collapse: collapse;
+}
+
+table, tr, th, td {
+  border-radius: 1vh;
+  border: 1px dashed blue;
+}
+th td {
+  height: 50px;
+  padding: 5px;
+}
+
+caption{
+font-family: verdana;
+color: rgb(255, 8, 8);
+font-size: 20px;
+margin-bottom: 25px auto;
+
+}
+
+div {
+  
+  background: #90F1FE;
+  opacity: 0.8;
+  margin: 20px auto 20px 20px;
+  padding: 50px auto 20px auto;
+  border-radius: 15px;
+  box-shadow: 3px 3px 7px chartreuse;
+  width: 25%;
+  border: 5px dashed red;
+  
+}
+form {
+  display: block;
+  padding: 10px auto;
+  margin: 10 auto;
+ 
+}
+
+textarea, p, label, input, select, option {
+  display: block;
+  margin: 5px auto 5px auto;
+  width: 75%;
+  text-align: center;
+
+}
+p {
+
+color: #f81111;
+
+}
+input, textarea, select{
+  border-radius: 1ch;
+  font-size: 14px;
+}
+
+.yellow td{
+  background: #C7F736;
+}
+th {
+  background: #46F769;
+  border: 2px groove black;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>hw#2</title>
+</head>
+<body>
+    <table>
+        <caption>Список террористов,диктаторов</caption>
+        <tr><th>имя</th><th>фамилия</th><th>телефон</th><th>email<th>статус</th></tr>
+        <tr><td>усама</td><td>бен ладен</td><td>066737</td><td>1111@gmail.com</td><td>ликвидирован </td></tr>
+        <tr class="yellow"><td>муамар</td><td>каддафи</td><td>095456</td><td>2222@gmail.com</td><td>ликвидирован</td></tr>
+        <tr><td>вова</td><td>пудель</td><td>063964</td><td>3333@gmail.com</td><td>не ликвидирован</td></tr>
+        <tr class="yellow"><td>ким чен</td><td>ын</td><td>063964</td><td>3333@gmail.com</td><td>не ликвидирован</td></tr>
+    </table>
+        
+
+
+      <div>
+        <form action="formdata.php" method="POST" name="name1">
+            
+           <input  type="text" name="First name" size="22" placeholder="введите ваше имя" alt="First name" maxlength="35" minlength="22"/> 
+
+               <input type="text" name="Last name" size="22" minlength="15" maxlength="22" placeholder="введите вашу фамилию" alt="Last name"/>
+              
+
+            
+                 <p>Какой Ваш пол?</p>
+                  <p><label><input type="radio" name="gender" value="man" alt="are you a man" checked/>MAN</label></p>
+                  <p><label><input type="radio" name="gender" value="women" alt="are you a woman"/>WOMAN</label></p>
+                  <p><label><input type="radio" name="gender" value="women" alt="are you a other(man)"/>other(man)</label></p>
+                  <p><label><input type="radio" name="gender" value="women" alt="are you a other(woman)"/>other(woman)</label></p>
+                  <p><label><input type="radio" name="gender" value="women" alt="are you a other"/>other</label></p>
+
+                    <textarea name="qwestion" cols="22" rows="5" maxlength="22" minlength="15" placeholder="напишите свой комментарий"></textarea>
+        
+            
+
+                     <select >
+                      <option selected disabled>выбoр город</option>
+                      <option>Киев</option>
+                      <option>Львов</option>
+                      <option>Днепр</option>
+                      <option>Харьков</option>
+                      <option>Запорожье</option>
+                      <option>Николаев</option>
+                      <option>Черкасы</option>
+                      <option>Одесса</option>
+                     </select>
+        
+                      <p>Выбор языка:</p>
+                      <p><label><input type="checkbox" name="ukr"/>Українська</label></p>
+                        <p><label><input type="checkbox" name="eng"/>English</label></p>
+                    <p><label><input type="checkbox" name="rus"/>Русский</label></p>
+                        <input type="submit" value="вiдправити"/>
+        </form>
+        
+      </div>
+</body>
+</html>
